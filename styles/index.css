@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: blanchedalmond;
+}
+header ul {
+  list-style: none;
+  width: auto;
+  padding: 0;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  width: 100px;
+  text-align: center;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  background-color: black;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 10px;
+  width: 65px;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+header ul li:hover{
+  background-color: rgba(51, 47, 47, 0.9);
+  cursor:pointer;
+}
+.groceries {
+  height: 100px;
+  background-image: url("/images/index/groceries.jpg");
+  background-position: center;
+  width: 515px;
+}
+
+.clothing {
+  height: 100px;
+  background-image: url("/images/index/clothing.jpg");
+  background-position: center;
+  width: 515px;
+}
+.health {
+  height: 100px;
+  background-image: url("/images/index/medicines.jpg");
+  background-position: center;
+  width: 515px;
+}
+
+main{
+    display: flex;
+}
+
+main a {
+    background-color: rgba(51, 47, 47, 0.7);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 200px;
+    text-decoration: none;
+    color: aqua;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+  }
+  main a:hover{
+    background-color: rgba(51, 47, 47, 0.9);
+  }
