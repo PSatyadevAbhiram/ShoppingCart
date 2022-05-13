@@ -1,0 +1,15 @@
+body p{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: aquamarine;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 2px 2px;
+    border-radius: 4px;
+}
+.apples{
+    
+}

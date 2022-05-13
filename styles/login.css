@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    border-radius: 6px;
+}
+label{
+    margin-bottom: 0.5rem;
+    display: block;
+}
+input{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid blue;
+    padding: 0.25rem;
+    color: black;
+}
+input:focus{
+    background-color: azure;
+}
+button{
+    background-color: blue;
+    color: black;
+    font: inherit;
+    color: whitesmoke;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    padding: 0.4rem 1.2rem;
+    margin: 0.2rem 4rem;
+    cursor: pointer;
+    width: 6rem;
+}
+button:hover{
+    background-color: blueviolet;
+}
